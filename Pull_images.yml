@@ -1,0 +1,12 @@
+---
+
+-name: Pull CenOS image from DockerHub
+ become: yes
+ hosts: servers
+ 
+ tasks:
+ -name: Pull CenOS image
+  docker_image: 
+    name: centos
+
+...
