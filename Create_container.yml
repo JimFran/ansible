@@ -8,7 +8,7 @@
      docker_container:
        name: webimage
        image: webimage
-       state: present
+       state: started
        ports:
         - "8080:80"
        tty: true
