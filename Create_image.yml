@@ -7,7 +7,7 @@
   tasks:
    - name: Build image
      docker_image:
-       path: /home/jenkins
+       path: /etc/docker
        name: webimage
 
 ...

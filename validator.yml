@@ -1,6 +1,6 @@
 ---
 - name: validator
-  hosts: localhost
+  hosts: servers
   connection: local
 
   tasks:
