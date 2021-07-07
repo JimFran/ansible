@@ -1,17 +1,17 @@
 ---
--name: Create Container from webimage
- become: yes
- hosts: servers
+- name: Create Container from webimage
+  become: yes
+  hosts: servers
 
- tasks: 
- -name: web container
-  docker_container:
-    name: web image
-    image: webimage
-    state: started
-    ports:
-      - "8080:80"
-    tty: true
-    detach: true
+  tasks: 
+   - name: web container
+     docker_container:
+       name: web image
+       image: webimage
+       state: started
+       ports:
+        - "8080:80"
+       tty: true
+       detach: true
 
 ...
