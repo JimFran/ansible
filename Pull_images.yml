@@ -8,6 +8,6 @@
    - name: Pull CenOS image
      docker_image: 
        name: centos
-       state: latest
+       state: present
 
 ...
