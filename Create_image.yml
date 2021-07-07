@@ -10,7 +10,7 @@
        name: webimage
        build: 
          path: /etc/docker
-         source: build
+       source: build
        state: present
 
 ...
