@@ -6,7 +6,7 @@
   tasks: 
    - name: web container
      docker_container:
-       name: web image
+       name: webimage
        image: webimage
        state: present
        ports:
